@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display:flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-links{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
