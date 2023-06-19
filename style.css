@@ -5,10 +5,27 @@ body{
 }
 
 .header{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.title-bar{
+    padding-bottom: 75px;
+    align-items: center;
+}
+
+.header, .title-bar{
     display:flex;
-    background-color: aqua;
+    background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px;
+    gap: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.summary{
+    color: white;
+    max-width: 200px;
 }
 
 .header-links{
@@ -16,6 +33,131 @@ body{
     gap: 10px;
 }
 
+
+.summary{
+    max-width: 300px;
+    color: white;
+}
+
+.summary p{
+    font-size: smaller;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.quote-content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#title-image{
+    max-height: 350px;
+}
+
+#byline{
+    font-weight: 700;
+    align-self: flex-end;
+}
+
 ul{
     list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.header img{
+    width:  150px;
+}
+
+.annoying{
+    border-radius: 10px;
+    display: flex;
+    width: 600px;
+    align-self: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #3B82F6;
+    margin-top: 50px;
+}
+
+button{
+    border-radius: 10px;
+    height: fit-content;
+    padding: 5px;
+    align-self: center;
+    color: white;
+    background-color:#3B82F6;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+}
+
+.annoying button{
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.quote p{
+    font-size: larger;
+}
+
+.annoying p{
+    color: white;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
