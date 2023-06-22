@@ -1,3 +1,9 @@
 # odin-landing
-odin landing page project
+The Odin Project - Foundations Course
+Landing Page project
+
+https://www.theodinproject.com/dashboard
+
+Photos from https://www.pexels.com/ 
+
 
